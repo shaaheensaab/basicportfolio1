@@ -5,12 +5,162 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>basic-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/dec4b4d8b9.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
+    <!-- header section -->
     <header>
         <nav>
-            <h1>Ma<span>r</span>y</h1>
+            <h1 class="nav-logo">Ma<span class="nav-span">r</span>y</h1>
+            <ul class="nav-items">
+                <li>Portfolio</li>
+                <li>Blog</li>
+                <li><button class="btn-primary">Hire Me</button></li>
+            </ul>
         </nav>
+        <!-- banner -->
+        <div class="banner">
+            <div class="banner-content">
+                <h3 class="banner-subtitle">Hi, I am</h3>
+                <h1 class="banner-title">Mary Hardy</h1>
+                <p class="banner-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem non repudiandae harum dolorum eaque, doloremque consequuntur sunt vitae hic ratione similique nam enim officia voluptates?</p>
+                <div class="btn-group">
+                    <button class="btn-primary">Download CV</button>
+                    <button class="btn-contact btn-secondary">Contact</button>
+                </div>
+            </div>
+            
+            <img src="./portfolio-resources/images/hardy.png" alt="banner-image">
+        </div>
     </header>
+    
+    <!-- main section -->
+    <main>
+
+        <!-- about section -->
+        <section class="about">
+            <h1 class="section-title">About Me</h1>
+            <p class="section-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut inventore nesciunt adipisci repellat, quo nam consequuntur suscipit ea iusto qui mollitia facilis numquam laboriosam expedita aspernatur animi nostrum magnam tempore doloremque commodi cum dolore! Deleniti amet vitae dolorum esse maiores expedita natus odit architecto, totam perferendis mollitia molestias odio corrupti.</p>
+
+            <div class="about-info-container">
+                <div class="about-info">
+                    <p class="info-title">Name:</p>
+                    <p class="info-description">Mary Hardy</p>
+                </div>
+                <div class="about-info">
+                    <p class="info-title">Email:</p>
+                    <p class="info-description">info@gmail.com</p>
+                </div>
+                <div class="about-info">
+                    <p class="info-title">Specialty:</p>
+                    <p class="info-description">Web Developer</p>
+                </div>
+                <div class="about-info">
+                    <p class="info-title">Location:</p>
+                    <p class="info-description">Los Angeles, USA</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- skill section -->
+        <section class="skill">
+            <div class="skill-info">
+                <h1 class="section-title">What I do</h1>
+                <p class="section-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus cumque commodi accusantium ipsa molestias neque nam, eos nihil, officia repellat corrupti sint voluptas possimus sapiente veritatis. Odio nihil minima laudantium!</p>    
+            </div>
+
+            <div class="skill-card-container">
+                <div class="skill-card">
+                    <img src="/portfolio-resources/images/icons/js.png" alt="JavaScript">
+                    <h3 class="card-title">Vanilla JavaScript</h3>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non amet enim fugiat deserunt nemo quisquam quam sint dignissimos omnis..</p>
+                </div>
+                <div class="skill-card">
+                    <img src="/portfolio-resources/images/icons/react.png" alt="">
+                    <h3 class="card-title">React</h3>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non amet enim fugiat deserunt nemo quisquam quam sint dignissimos omnis..</p>
+                </div>
+                <div class="skill-card">
+                    <img src="/portfolio-resources/images/icons/nodejs.png" alt="">
+                    <h3 class="card-title">Node.js</h3>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non amet enim fugiat deserunt nemo quisquam quam sint dignissimos omnis..</p>
+                </div>
+                <div class="skill-card">
+                    <img src="/portfolio-resources/images/icons/mongo.png" alt="">
+                    <h3 class="card-title">MongoDB</h3>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non amet enim fugiat deserunt nemo quisquam quam sint dignissimos omnis..</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- resume section -->
+        <section class="resume">
+            <h1 class="section-title">A summary of My Resume</h1>
+            <div class="resume-container">
+                <div class="education">
+                    <div class="edu-card">
+                        <h3 class="card-title">Masters in Computer Engineering</h3>
+                        <p class="card-subtitle">Harvard University/2024-26</p>
+                        <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium at consequatur quidem debitis quia ea eius, ducimus eligendi hic.</p>
+                    </div><hr/>
+                    <div class="edu-card">
+                        <h3 class="card-title">Masters in Computer Engineering</h3>
+                        <p class="card-subtitle">Harvard University/2024-26</p>
+                        <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium at consequatur quidem debitis quia ea eius, ducimus eligendi hic.</p>
+                    </div><hr/>
+                    <div class="edu-card">
+                        <h3 class="card-title">Masters in Computer Engineering</h3>
+                        <p class="card-subtitle">Harvard University/2024-26</p>
+                        <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium at consequatur quidem debitis quia ea eius, ducimus eligendi hic.</p>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="edu-card">
+                        <h3 class="card-title">Masters in Computer Engineering</h3>
+                        <p class="card-subtitle">Harvard University/2024-26</p>
+                        <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium at consequatur quidem debitis quia ea eius, ducimus eligendi hic.</p>
+                    </div><hr/>
+                    <div class="edu-card">
+                        <h3 class="card-title">Masters in Computer Engineering</h3>
+                        <p class="card-subtitle">Harvard University/2024-26</p>
+                        <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium at consequatur quidem debitis quia ea eius, ducimus eligendi hic.</p>
+                    </div><hr/>
+                    <div class="edu-card">
+                        <h3 class="card-title">Masters in Computer Engineering</h3>
+                        <p class="card-subtitle">Harvard University/2024-26</p>
+                        <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium at consequatur quidem debitis quia ea eius, ducimus eligendi hic.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cv-btn">
+            <button class="btn-primary">Download CV</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section-->
+    <footer>
+        <div class="social">
+            <h2 class="card-title">Lets Connect</h2>
+            <p class="card-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, sint.</p>
+            <div class="social-items">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="form">
+            <h1 class="card-title">Let's Message Me</h1>
+            <form class="form-container">
+                <input class="input-item" type="text" placeholder="Enter Your Name">
+                <input class="input-item" type="email" placeholder="Enter Your Email">
+                <textarea class="input-item" name="textarea" id="" cols="30" rows="10" placeholder="Message "></textarea>
+                <input type="submit" class="btn-primary">
+            </form>
+        </div>
+    </footer>
+
 </body>
 </html>
